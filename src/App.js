@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { themes, ThemeContext } from "./contexto/ThemeContext";
 import Header from "./components/header";
 import ListarTarefa from "./pages/tarefa/ListarTarefa";
+import Login from "./pages/login";
 
 // Componente responsável por aplicar o tema em toda a página
 const AppTheme = ({ children }) => {
